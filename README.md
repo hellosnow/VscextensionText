@@ -1,5 +1,5 @@
-DocFX Flavored Markdown Preview
-==========================================
+# DocFX Flavored Markdown Preview
+------------
 
 [![Current Version](http://vsmarketplacebadge.apphb.com/version/928pjy.DfmPreview.svg)](http://marketplace.visualstudio.com/items?itemName=928pjy.DfmPreview)
 [![Install Count](http://vsmarketplacebadge.apphb.com/installs/928pjy.DfmPreview.svg)](https://marketplace.visualstudio.com/items?itemName=928pjy.DfmPreview)
@@ -12,34 +12,30 @@ An extension to support **Dfm** for Visual Studio Code! The preview providers th
 * Match the markdown file the tokenTree node
 * Match the tokenTree node to the markdown file
 
-## Quick Start
+# Quick Start
 * Install the extension
 > **Notice:** Upgrade to Visual Studio Code 1.3.0 or above.
 * open a markdown file which can include dfm syntax
 * use the `Preview` and `TokenTree`
 > **Notice:** If you want to use Dfm feature `File include` and `Code Snippets`, You have to open a folder which include your target markdown file
 
-## Document
+# Document
 For further information and detail about DocFX Flavored Markdown, please reference [DocFX Flavored Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html)
 
-## Feature Details
-- Live preview  
-  The shortcuts are
-    - `ctrl+shift+q`    Preview
-    - `ctrl+k q`        Preview to side  
-
-  The Command title are(hit `F1` to input command title)
-    - `Toggle Dfm Preview`              Preview
-    - `Open Dfm Preview to the side`    Preview to side
+# Feature Details
+## Live preview  
+| Shortcuts | command title | command |
+|:-------|:--------|:--------|
+| `ctrl+shift+q` | `Toggle Dfm Preview` | Preview  |
+| `ctrl+k q` | `Open Dfm Preview to the side` | Preview to side |
+|  | `show Dfm Show` | Show Source |
   
   ![PreviewToside](img/previewToSide.gif)
 
-- Token tree
-  - The shortcuts are
-    - `ctrl+shift+t`    TokenTreeToSide 
-
-  - The Command title are(hit `F1` to input command title)
-    - `Open Dfm Preview to the side`   TokenTreeToSide
+## Token tree
+| Shortcuts | command title | command |
+|:-------|:--------|:--------|
+| `ctrl+shift+t` | `Open Dfm Preview to the side` | TokenTreeToSide  |
 
   - Expand and collapse the node by hit the circle of node
 
@@ -54,27 +50,27 @@ For further information and detail about DocFX Flavored Markdown, please referen
 
   ![Match](img/Match.gif)
 
-## Found a Bug?
+# Found a Bug?
 Please file any issue through the [Github Issue](https://github.com/dotnet/docfx/issues) system.
 
-## Development
-### First install
-* Visual Studio Code(new than 1.3.0)
-* Node.js(Npm included)
+# Development
+* First install
+  * Visual Studio Code(new than 1.3.0)
+  * Node.js(Npm included)
 
-### To run and develop do the following：
-* Run  `npm install` under the root dir of this extension
-* Open in Visual Studio Code(run `code .` under the root dir of this extension)
-> Cannot find module 'vscode'? Run `npm run postinstall` under the root dir of this extension, according to [Cannot find module 'vscode' – where is vscode.d.ts now installed? #2810](https://github.com/Microsoft/vscode/issues/2810)
-* Press `F5` to debug
+* To run and develop do the following:  
+  * Run  `npm install` under the root dir of this extension
+  * Open in Visual Studio Code(run `code .` under the root dir of this extension)
+    > Cannot find module 'vscode'? Run `npm run postinstall` under the root dir of this extension, according to [Cannot find module 'vscode' – where is vscode.d.ts now installed? #2810](https://github.com/Microsoft/vscode/issues/2810)
+  * Press `F5` to debug
 
-## Source
+# Source
 [docfx/src/VscPreviewExtension](https://github.com/dotnet/docfx/tree/dev/src/VscPreviewExtension)
 
-## Licences
+# Licences
 *DocFX* is licensed under the [MIT license](LICENSE).
 
-## Change Log
+# Change Log
 ### Current Version **0.0.11**
 * **0.0.11**
   * Add feature: tokenTree preview
@@ -89,7 +85,7 @@ Please file any issue through the [Github Issue](https://github.com/dotnet/docfx
 * **0.0.7**
   * Initial Release!
 
-## TODO
+# TODO
 * Support Dfm feature `YamlHeader`
 * Support Dfm feature `Cross Reference`
 * Match between markdown file with preview
