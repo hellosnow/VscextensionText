@@ -1,0 +1,25 @@
+  .node {
+      cursor: pointer;
+    }
+   
+   body{
+     /*background-color: #fff;*/
+   }
+
+  .node circle {
+    fill: #d4d4d4;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+   
+  .node text {
+    fill: #d4d4d4;
+    font-family:sans-serif;
+  }
+   
+  .link {
+    fill: none;
+    /*stroke: #ccc;*/
+    stroke: rgba(156, 220, 254, 1);
+    stroke-width: 2.0px;
+  }
