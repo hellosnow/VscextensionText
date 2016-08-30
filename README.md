@@ -45,7 +45,7 @@ For further information and detail about DocFX Flavored Markdown, please referen
 
   - Display the detail information of node on mouseover
 
-  ![Match](img/TokenTree.gif)
+  ![TokenTree](img/Tokentree.gif)
 
 - Match between markdown file with tokenTree Node
   - click/select the text you want to match to the tokenTree

@@ -84,7 +84,7 @@ function buildTree(containerName, treeData) {
                     .style("fill", function (d) {
                         if (isIntersect(parseInt(GetStartLineNumber(d.name)), parseInt(GetEndLineNumber(d.name)), parseInt(linenumber[0]), parseInt(linenumber[1]))) {    //centerNode(d);
                             targetNode = d;
-                            return "#ff0000";
+                            return "#EDE68A";
                         } else {
                             return d._children ? "lightsteelblue" : "#fff";
                         }
@@ -96,7 +96,7 @@ function buildTree(containerName, treeData) {
                     .style("fill", function (d) {
                         if (isIntersect(parseInt(GetStartLineNumber(d.name)), parseInt(GetEndLineNumber(d.name)), parseInt(linenumber[0]), parseInt(linenumber[1]))) {    //centerNode(d);
                             targetNode = d;
-                            return "#ff0000";
+                            return "#EDE68A";
                         } else {
                             return "#d4d4d4";
                         }
